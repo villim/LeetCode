@@ -1,6 +1,6 @@
 package io.github.villim.sorting;
 
-public class Insection implements Sort {
+public class Selection implements Sort {
 
 	@Override
 	public int[] sort(final int[] array) {

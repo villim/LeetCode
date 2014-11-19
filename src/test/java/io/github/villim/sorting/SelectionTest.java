@@ -6,8 +6,8 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-public class InsectionTest {
-	private Sort classUnderTest = new Insection();
+public class SelectionTest {
+	private Sort classUnderTest = new Selection();
 	int[] asnSortedArray = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
 	@Test
