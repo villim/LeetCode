@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MinStackTest {
-	private MinStack classUnderTest = new MinStack();
+	private MinStack2 classUnderTest = new MinStack2();
 
 	@Test
 	public void testStack() {
