@@ -2,8 +2,9 @@ package io.github.villim.sorting;
 
 import org.junit.Test;
 
-public class InsectionTest extends BaseSortTest {
-	private Sort classUnderTest = new Insection2();
+public class QuickTest extends BaseSortTest {
+
+	private Sort classUnderTest = new Quick();
 
 	@Test
 	public void testAsnSorted() {

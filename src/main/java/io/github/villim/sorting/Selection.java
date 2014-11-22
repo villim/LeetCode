@@ -4,6 +4,7 @@ public class Selection implements Sort {
 
 	@Override
 	public int[] sort(final int[] array) {
+
 		int[] nums = array.clone();
 
 		for (int i = 0; i < nums.length - 1; i++) {
@@ -17,9 +18,7 @@ public class Selection implements Sort {
 				}
 			}
 
-			int temp = nums[i];
-			nums[i] = nums[minindex];
-			nums[minindex] = temp;
+			swap(nums, i, minindex);
 		}
 
 		return nums;
