@@ -1,12 +1,12 @@
-package io.github.villim.reverse.words.in.string;
+package io.github.villim.medium;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class ReverseWordsInSentenceSolutionTest {
+public class ReverseWordsInSentenceTest {
 
-	private ReverseWordsInSentenceSolution classUnderTest = new ReverseWordsInSentenceSolution();
+	private ReverseWordsInSentence classUnderTest = new ReverseWordsInSentence();
 
 	@Test
 	public void reverseWords() {

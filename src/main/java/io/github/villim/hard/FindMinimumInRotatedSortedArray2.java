@@ -1,4 +1,4 @@
-package io.github.villim.minimum.in.rorated.sorted.array2;
+package io.github.villim.hard;
 
 /**
  * Follow up for "Find Minimum in Rotated Sorted Array": What if duplicates are
@@ -15,7 +15,7 @@ package io.github.villim.minimum.in.rorated.sorted.array2;
  *
  */
 
-public class Solution {
+public class FindMinimumInRotatedSortedArray2 {
 
 	public int findMin(int[] num) {
 

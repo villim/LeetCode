@@ -1,4 +1,4 @@
-package io.github.villim.min.stack;
+package io.github.villim.easy.minstack;
 
 /**
  * Design a stack that supports push, pop, top, and retrieving the minimum

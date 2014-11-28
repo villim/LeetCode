@@ -1,17 +1,17 @@
-package io.github.villim.minimum.in.rorated.sorted.array;
+package io.github.villim.medium;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-public class SolutionTest {
+public class FindMinimumInRotatedSortedArrayTest {
 
-	private Solution classUnterTest;
+	private FindMinimumInRotatedSortedArray classUnterTest;
 
 	@Before
 	public void setup() {
-		this.classUnterTest = new Solution();
+		this.classUnterTest = new FindMinimumInRotatedSortedArray();
 	}
 
 	@Test

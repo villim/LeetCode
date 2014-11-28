@@ -1,4 +1,6 @@
-package io.github.villim.min.stack;
+package io.github.villim.easy.minstack;
+
+import io.github.villim.easy.minstack.MinStack3;
 
 import org.junit.Assert;
 import org.junit.Test;
