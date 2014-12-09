@@ -37,7 +37,7 @@ public class PascalsTriangle {
 
 	private ArrayList<Integer> getNextRow(List<Integer> previousRow) {
 
-		if (previousRow == null) {
+		if (previousRow == null || previousRow.size() == 0) {
 			ArrayList<Integer> list = new ArrayList<Integer>();
 			list.add(1);
 			return list;
