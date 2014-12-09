@@ -19,7 +19,7 @@ public class PascalsTriangle2 {
 
 		ArrayList<Integer> row = new ArrayList<Integer>();
 		int i = 0;
-		while (i < rowIndex) {
+		while (i < rowIndex + 1) {
 			row = (ArrayList<Integer>) getNextRow(row);
 			i++;
 		}
