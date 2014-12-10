@@ -12,8 +12,7 @@ public class FizzBuzzWhizzTest {
 	private FizzBuzzWhizz classUnderTest = null;
 	HashMap<Integer, String> fbzNumber = null;
 	ContainsFBWChain containsFBWChain = null;
-	MuliTimesFBWChain multiTimesFBWChain = null;
-	// TimesFBWChain timesFBWChain = null;
+	TimesFBWChain timesFBWChain = null;
 	NoramlChain normalChain = null;
 
 	@Before
@@ -25,9 +24,8 @@ public class FizzBuzzWhizzTest {
 
 		// configure chains
 		normalChain = new NoramlChain();
-		// timesFBWChain = new TimesFBWChain(normalChain);
-		multiTimesFBWChain = new MuliTimesFBWChain(normalChain);
-		containsFBWChain = new ContainsFBWChain(multiTimesFBWChain);
+		timesFBWChain = new TimesFBWChain(normalChain);
+		containsFBWChain = new ContainsFBWChain(timesFBWChain);
 
 		classUnderTest = new FizzBuzzWhizz();
 		classUnderTest.setChain(containsFBWChain);

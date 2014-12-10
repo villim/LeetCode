@@ -28,14 +28,15 @@ public class FizzBuzzWhizz {
 
 		validateParameter(fbwNumber, totalNumber);
 
-		StringBuilder sb = new StringBuilder();
+		if (getChain() == null) {
+			return null;
+		}
 
-		if (getChain() != null) {
-			for (int i = 1; i <= totalNumber; i++) {
-				sb.append(getChain().handle(fbwNumber, i));
-				if (i < totalNumber) {
-					sb.append(",");
-				}
+		StringBuilder sb = new StringBuilder();
+		for (int i = 1; i <= totalNumber; i++) {
+			sb.append(getChain().handle(fbwNumber, i));
+			if (i < totalNumber) {
+				sb.append(",");
 			}
 		}
 
