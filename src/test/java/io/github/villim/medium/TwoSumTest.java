@@ -26,7 +26,7 @@ public class TwoSumTest {
 	}
 
 	@Test
-	public void test0() {
+	public void testZero() {
 		int[] numbers = new int[] { 0, 4, 5, 0 };
 		int[] indexs = this.classUnderTest.twoSum(numbers, 0);
 		assertEquals(1, indexs[0]);

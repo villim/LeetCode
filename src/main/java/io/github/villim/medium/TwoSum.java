@@ -19,8 +19,6 @@ import java.util.Map;
 public class TwoSum {
 	public int[] twoSum(int[] numbers, int target) {
 
-		int[] index = new int[] { -1, -1 };
-
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < numbers.length; i++) {
 			map.put(numbers[i], i + 1);
@@ -31,14 +29,16 @@ public class TwoSum {
 				Integer theOtherNumberIndex = map.get(target - numbers[i]);
 				if (theOtherNumberIndex != null
 						&& (i + 1) < theOtherNumberIndex) {
+					int[] index = new int[] { -1, -1 };
 					index[0] = i + 1;
 					index[1] = theOtherNumberIndex;
+					return index;
 				}
 			} else {
 				continue;
 			}
 		}
 
-		return index;
+		return null;
 	}
 }
