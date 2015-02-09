@@ -1,6 +1,7 @@
 package io.github.villim.easy;
 
 import static org.junit.Assert.assertEquals;
+import io.github.villim.ListNode;
 
 import org.junit.Assert;
 import org.junit.Before;

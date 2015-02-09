@@ -1,5 +1,7 @@
 package io.github.villim.easy;
 
+import io.github.villim.ListNode;
+
 /**
  * Write a program to find the node at which the intersection of two singly
  * linked lists begins.
@@ -86,15 +88,5 @@ public class IntersectionOfTwoLinkedLists {
 		}
 
 		return null;
-	}
-}
-
-class ListNode {
-	int val;
-	ListNode next;
-
-	ListNode(int x) {
-		val = x;
-		next = null;
 	}
 }

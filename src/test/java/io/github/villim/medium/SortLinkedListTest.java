@@ -1,5 +1,7 @@
 package io.github.villim.medium;
 
+import io.github.villim.ListNode;
+
 import org.junit.Before;
 import org.junit.Test;
 
